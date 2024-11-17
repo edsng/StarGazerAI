@@ -32,3 +32,20 @@
     align-items: center;
     justify-content: center;
 }
+
+.error-message {
+    color: #ff4444;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ff4444;
+    border-radius: 4px;
+    background-color: #ffebee;
+}
+
+.response-message {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    background-color: #E8F5E9;
+}
