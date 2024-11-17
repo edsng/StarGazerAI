@@ -17,9 +17,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 
 .home-hero-button {
+    margin-top: 20px;
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
@@ -29,4 +31,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.home-features-container {
+    text-align: left;
+}
+
+.home-features-container p {
+    display: list-item; /* This has to be "list-item"                                          */
+    margin-left : 1em;  /* If you use default list-style-position 'outside', you may need this */
 }

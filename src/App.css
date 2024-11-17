@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000428, #004e92);  background-attachment: fixed; /* This prevents the gradient from scrolling */
+  color: white; /* Making text white for better readability against dark background */
+}
+
+/* Ensure links are visible against the dark background */
+a {
+  color: #7F7FD5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -49,7 +49,7 @@ function RunLLM() {
             <div className="get-started-container">
                 <div className="get-started-text">
                     <h1>How does it work?</h1>
-                    <p>Classification using CNN and TensorFlow to identify constellations in images</p>
+                    <p>Click on the "Discover" button to unveil three random facts about space. Whether you're a space enthusiast or just curious, there's always something new to learn!</p>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ function RunLLM() {
                         className="llm-button"
                         disabled={loading}
                     >
-                        {loading ? 'Generating...' : 'Generate Fun Facts'}
+                        {loading ? 'Generating...' : 'Discover'}
                     </button>
                 </div>
                 {error && <div className="error-message">{error}</div>}
@@ -72,7 +72,7 @@ function RunLLM() {
                             <div className="card-content">{response}</div>
                         </div>
                     ))}
-                </div>                
+                </div>
             </div>
             <p>The project is a part of <a href="https://cutiehack.org/">CutieHack 2024</a></p>
         </div>
